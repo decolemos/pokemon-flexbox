@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Russo+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: kanit;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 100%;
+    height: 100px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+nav, ul {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+nav .active a,
+nav a:hover {
+    background-color: #3D69BB;
+    color: #FAC705;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/banner\ pokemon.webp');
+    background-position: center;
+    background-size: cover;
+    height: 950px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.banner_headline {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#backgound_text {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #00000080;
+    width: 850px;
+    padding:  0 0 20px 10px;
+}
+
+.banner_headline h1 {
+    color: #ffffff;
+    font-size: 70px;
+    text-shadow: 0px 2px 0px #555555;
+    margin: 0;
+    padding: 0;
+    /* width: 800px; */
+}
+
+.banner_headline h2 {
+    color: #ffffff;
+    font-size: 25px;
+    text-shadow: 2px 2px 0px #000000;
+    margin: 0;
+    padding: 0;
+    margin-top: 40px;
+    /* width: 800px; */
+}
+
+.banner_options {
+    height: 310px;
+    display: flex;
+}
+
+.banner_options a {
+    display: inline-block;
+    border: 1px solid #ffffff;
+    padding: 8px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.banner1,
+.banner2,
+.banner3 {
+    flex: 1;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.banner1 {
+    background-color: #3D69BB;
+    border-radius: 20px 0px 0px 0px;
+    border-top: 4px solid #ffffff;
+    border-left: 4px solid #ffffff;
+}
+.banner2 {
+    background-color: #FAC705;
+    border-top: 4px solid #ffffff;
+}
+.banner3 {
+    background-color: #202855;
+    border-radius: 0px 20px 0px 0px;
+    border-top: 4px solid #ffffff;
+    border-right: 4px solid #ffffff;
+}
+
+.banner_title h1{
+    font-size: 30px;
+    text-shadow: 0 1px 0 #555555;
+}
+
+.banner_desc h2{
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 0 #555555;
+}
+
+
+
+
+
+
